@@ -19,7 +19,7 @@ function onHtmlLoaded() {
                        }
          
          var email = document.getElementById("email").value;
-         if(email == "" || email.indexOf('@') == -1 || email.indexOf('.') == -1){
+         if(email == "" || $("#email").indexOf('@') == -1 || ("#email").indexOf('.') == -1){
             $("#email").addClass("redInputs");
          }
          else if( $("#email").className = "redInputs" && subject !== ""){
