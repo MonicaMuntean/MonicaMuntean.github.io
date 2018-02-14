@@ -1,0 +1,123 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../css/css.css"/>
+        <script type="text/javascript" src="../views/script1.js"></script>
+        <script type="text/javascript" src="../views/script2.js"></script>
+    </head>
+    <body>
+        <header class="row header2">
+            <div id="logo"><img src="../css/omida3.png" id="imgLogo"/></div>
+            <p>Perseverance is the hard work you do after you get tired of doing the hard work you already did.</p>
+            <div class="searchBar">
+                <input type="text" name="searchItem" id="searchItem"  autocomplete="off" placeholder="search this site...">
+                     <span class="glyphicon glyphicon-search"></span>
+                     <div id="displayResults" class="hiddenObj"></div>
+                </input>
+          </div>
+        </header>
+        <div id="purpleLine">
+            <div class="navbar2">
+               <div class="linkDiv"><a href="../index.html">Home</a></div>
+               <div class="linkDiv"><a href="about.html">About</a></div>
+               <div class="linkDiv"><a href="skills.html">Skills</a></div>
+               <div class="linkDiv"><a href="work.html">Work</a></div>
+               <div class="linkDiv"><a href="contact.html">Contact</a></div>
+            </div>
+        </div>
+        
+        <main class="row col-md-10" id="mainText">
+            <aside class="col-md-3">
+                <div class="asideInfo" >
+                    <img src="../css/poza1.jpg" id="mainPic" alt="This is me"/>
+                    <div id="myModal" class="modal">
+                      <span class="close">x</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                   </div>
+               </div>
+               <div class="asideInfo">
+                    <h3 id="h3-1">Contact</h3>
+                    <div><img src="../css/adresa2.png" class="contactIcons"/><span>Cluj-Napoca, Romania</span></div>
+                    <div id="e-mail"><img src="../css/mail.png" class="contactIcons"/><span >monica_florica@yahoo.com</span></div>
+                    <div><img src="../css/likedin.png" class="contactIcons"/><span><a href="https://www.linkedin.com/in/monica-muntean-12569b42/">Monica Muntean</a></span></div>
+                    <div><img src="../css/telephone2.png" class="contactIcons"/><span>+40 740 276 529</span></div>
+               </div>
+               <div class="asideInfo">
+                    <h3 id="h3-2">Languages</h3>
+                    <p>Romanian <span class="level"> - native</span> </p>
+                    <p>English <span class="level"> - advanced</span> </p>
+                    <p>French <span class="level"> - begginer</span> </p>
+                    <p>Spanish <span class="level"> - begginer</span> </p>
+               </div>
+               <div class="asideInfo">
+                    <h3 id="h3-3">Skills</h3>
+                    <p>analitycal</p>
+                    <p>team organizer</p>
+                    <p>empathetic</p>
+                    <p>self-starter</p>
+                </div>
+                <div class="asideInfo">
+                    <h3 id="h3-4">Hobbies</h3>
+                    <div id="hobbyDiv"><img src="../css/reading3.jpg" class="hobbyIcon"/><img src="../css/reading1.png" class="hobbyIcon"/><img src="../css/sewing.png" class="hobbyIcon"/><img src="../css/traveling2.png" class="hobbyIcon"/></div>
+                </div>
+            </aside>
+            <article class="col-md-7">
+                <div class="asidePic">
+                    <img src="../css/lavanda-pic.jpg" id="lavandaPic">
+                    <div id="textPic">
+                        Monica Muntean
+                    </div>
+                </div>
+                <div class="mainInfo">
+                    <div class="mainInfo1">
+                       <div id="underlineName">
+                       </div>
+                       <div class="description">
+                           <p>Hello! Last year I had the challenge of my life. </br>
+                           I entered the sophisticated world of IT, even if I graduated the Faculty of Letters.</br>
+                           Moreover, I have managed to strive despite the fact that I have three small children at home,</br>
+                           who require a lot of attention and energy. So, here I am, a junior Front End Developer, </br>
+                            allways looking to improve myself, enthusiastic about pursuing a career in this field.
+                          </p>
+                       </div>
+                    </div>
+                <div class="mainInfo2">
+                    <h2>Education and Training</h2>
+                    <h6>The Informal School of IT - Front End Web Development module  09/2017-02/2018</h6>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRIPT</li>
+                    </ul>
+                    <h6>BABES-BOLYAI University - "Master's Degree" 10/2012-07/2014</h6>
+                    <ul>
+                        <li>British Culture</li>
+                        <li>British Civilization</li>
+                    </ul>
+                    <h6>BABES-BOLYAI University - "Bachlor's Degree" 10/2009-07/2012</h6>
+                    <ul>
+                        <li>English Language and Literature</li>
+                        <li>Romanian Language and Literature</li>
+                    </ul>
+                </div>
+                <div class="mainInfo4">
+                    <h2>Experience</h2>
+                    <h6><em>Livada</em> Elmentary School 09/2012-08/2013</h6>
+                    <ul>
+                        <li>Teaching Romanian Literature</li>
+                        <li>Teaching Romanian Grammar</li>
+                        <li>Teaching Latin</li>
+                    </ul>
+                </div>
+              </div>
+            </article>
+        </main>
+        <footer class="row">Created by M.M. @ 2018</footer>
+    </body>
+</html>

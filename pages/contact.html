@@ -1,0 +1,67 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../css/css.css"/>
+        <script type="text/javascript" src="../views/script1.js"></script>
+         <script type="text/javascript" src="../views/script3.js"></script>
+        
+    </head>
+    <body>
+        <header class="row header2">
+            <div id="logo"><img src="../css/omida3.png" id="imgLogo"/></div>
+            <p>Perseverance is the hard work you do after you get tired of doing the hard work you already did.</p>
+            <div class="searchBar">
+                 <input type="text" name="searchItem" id="searchItem"  autocomplete="off" placeholder="search this site...">
+                    <span class="glyphicon glyphicon-search"></span>
+                    <div id="displayResults" class="hiddenObj"></div>
+                 </input>
+           </div>
+        </header>
+        <div id="purpleLine">
+           <div class="navbar2">
+            <div class="linkDiv"><a href="../index.html">Home</a></div>
+            <div class="linkDiv"><a href="about.html">About</a></div>
+            <div class="linkDiv"><a href="skills.html">Skills</a></div>
+            <div class="linkDiv"><a href="work.html">Work</a></div>
+            <div class="linkDiv"><a href="contact.html">Contact</a></div>
+          </div>
+        </div>
+        
+        <main class="row col-md-10" id="mainText">
+            <div class=" col-md-2 asidePic2" >
+            </div>
+            
+            <div class="col-md-8 skillsPage">
+                <div id="contactText"> You can contact me only through:
+                                <div id="email"><img src="../css/mail.png" class="contactIcons"/>E-mail:<p>monica_florica@yahoo.com</p></div>
+                                <div><img src="../css/likedin.png" class="contactIcons"/>Linkedin:<p><a href="https://www.linkedin.com/in/monica-muntean-12569b42/">Monica Muntean</a></p></div>
+                                <div><img src="../css/telephone2.png" class="contactIcons"/>Phone:<p>+40 740 276 529</p></div>
+                The form below is just a code sample. Try it!
+                </div>
+                    <div id="message" class="hiddenObj"><p>Thank you for contacting me, <span id="contacterID"></span>! </p>
+                    </div>
+                    <div id="contactDiv">
+                            <form id="contactForm">
+                                    <label>Name :</label></br>
+                                    <input type="text" id="name" class="inputs"></input></br></br>
+                                    <label>E-mail :</label></br>
+                                    <input type="text" id="email" class="inputs"></input></br></br>
+                                    <label>Subject :</label></br>
+                                    <input type="text" id="subject" class="inputs"></input></br></br>
+                                    <label>Message :</label></br>
+                                    <textarea id="messageText" class="inputs"></textarea ></br></br>
+                                    <button type="submit" >Send message</button>
+                            </form>
+                   </div>
+               
+            </div>
+          
+        </main>
+        <footer class="row">Created by M.M. @ 2018</footer>
+    </body>
+</html>
