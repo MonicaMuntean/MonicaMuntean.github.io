@@ -13,11 +13,10 @@ function onHtmlLoaded() {
 		 else if($("#name").className = "redInputs" && name !== ""){
                 $("#name").addClass("blackInputs");
 				var validation1 = true;
-				this.continue;
 		 }
 		 else {
 			validation1 = true; 
-         }
+                       }
          
          var email = document.getElementById("email").value;
          if(email == "" || email.indexOf('@') == -1 || email.indexOf('.') == -1){
@@ -26,7 +25,6 @@ function onHtmlLoaded() {
          else if( $("#email").className = "redInputs" && subject !== ""){
             $("#email").addClass("blackInputs");
             var validation2 = true;
-            this.continue;
                }
              else{
               validation2 = true;
@@ -39,7 +37,6 @@ function onHtmlLoaded() {
 		 else if( $("#subject").className = "redInputs" && subject !== ""){
                 $("#subject").addClass("blackInputs");
 				var validation3 = true;
-				this.continue;
 		 }
 		 else{
 			 validation3 = true;
@@ -52,7 +49,6 @@ function onHtmlLoaded() {
 		 else if($("#messageText").className = "redInputs" && messageText !== ""){
                $("#messageText").addClass("blackInputs");
 				var validation4 = true;
-				this.continue;
 		 }
 		 else{
 			 validation4 = true;
